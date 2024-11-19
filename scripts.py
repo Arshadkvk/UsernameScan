@@ -2,7 +2,7 @@ import requests
 import sys
 
 def check_email(email):
-    url = 'http://enum.thm/labs/verbose_login/functions.php'  # Location of the login function
+    url = ''  # Location of the login function
     headers = {
         'Host': 'enum.thm',
         'User-Agent': 'Mozilla/5.0 (X11; Linux aarch64; rv:102.0) Gecko/20100101 Firefox/102.0',
