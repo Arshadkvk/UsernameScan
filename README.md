@@ -15,16 +15,20 @@ This Python script enumerates valid email addresses by interacting with a web ap
    ```bash
    git clone https://github.com/Arshadkvk/email-enumerator.git
    cd email-enumeration
-2.Update the script:
+   
+## Steps to Update and Run the Script
 
-Replace the url variable in the script with the actual endpoint of the login functionality.
-Adjust the invalid_error variable to match the server's error message for invalid emails.
-3.Prepare an email list:
+1. **Update the script**:
+   - Replace the `url` variable in the script with the actual endpoint of the login functionality.
+   - Adjust the `invalid_error` variable to match the server's error message for invalid emails.
 
-Create a file (e.g., emails.txt) with one email address per line.
-4.Run the script:
+2. **Prepare an email list**:
+   - Create a file (e.g., `emails.txt`) with one email address per line.
 
-python3 script.py emails.txt
+3. **Run the script**:
+   ```bash
+   python3 script.py emails.txt
+
 
 ##Example Output:
 plaintext
