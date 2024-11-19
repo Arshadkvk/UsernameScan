@@ -26,7 +26,7 @@ def check_email(email):
 
 def enumerate_emails(email_file):
     valid_emails = []
-    invalid_error = "Email does not exist"  # Error message for invalid emails
+    invalid_error = ""  # Error message for invalid emails
 
     with open(email_file, 'r') as file:
         emails = file.readlines()
