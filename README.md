@@ -29,12 +29,12 @@ This Python script enumerates valid email addresses by interacting with a web ap
    ```bash
    python3 script.py emails.txt
 
+4. **Example Output**:
+   - [INVALID] test@example.com
+   - [INVALID] test@example.com
+     
+   - Valid emails found:
+   - valid@example.com
 
-##Example Output:
-plaintext
-Copy code
-[INVALID] test@example.com
-[VALID] valid@example.com
 
-Valid emails found:
-valid@example.com
+
