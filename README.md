@@ -13,7 +13,7 @@ This Python script enumerates valid email addresses by interacting with a web ap
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/email-enumeration.git
+   git clone https://github.com/Arshadkvk/email-enumerator.git
    cd email-enumeration
 2.Update the script:
 
